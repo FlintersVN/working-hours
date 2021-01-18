@@ -1,0 +1,25 @@
+{
+  "name": "flinters-php/working-hours",
+  "description": "Working hours",
+  "license": "MIT",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flinters\\WorkingHours\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Flinters\\WorkingHours\\Tests\\": "tests"
+    }
+  },
+  "suggest": {
+    "nesbot/carbon": "Intergrate with carbon. Convert time from carbon date"
+  },
+  "scripts": {
+    "tests": "vendor/bin/phpunit"
+  }
+}
